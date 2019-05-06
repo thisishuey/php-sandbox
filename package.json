@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "composer:init": "docker run --rm -it -v $(pwd):/app composer init",
+    "composer:install": "docker run --rm -it -v $(pwd):/app composer install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

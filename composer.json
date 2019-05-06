@@ -1,0 +1,14 @@
+{
+    "name": "root/app",
+    "type": "plugin",
+    "require": {
+        "phpunit/php-timer": "^2.1"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jeff \"Huey\" Huelsbeck",
+            "email": "huey@carpetelam.com"
+        }
+    ]
+}
