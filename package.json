@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "composer:diagnose": "docker run --rm -it -v $(pwd):/app composer diagnose",
     "composer:init": "docker run --rm -it -v $(pwd):/app composer init",
     "composer:install": "docker run --rm -it -v $(pwd):/app composer install",
+    "composer:validate": "docker run --rm -it -v $(pwd):/app composer validate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
