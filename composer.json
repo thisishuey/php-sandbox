@@ -3,7 +3,7 @@
   "description": "Playing around with php and docker",
   "type": "project",
   "require": {
-    "phpunit/php-timer": "^2.1"
+    "phpunit/php-timer": "^1.0"
   },
   "license": "GPL-2.0-or-later",
   "authors": [
