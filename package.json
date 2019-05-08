@@ -1,21 +1,21 @@
 {
-  "name": "php-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "composer": "docker run --rm -it -v $(pwd):/app composer",
-    "php": "docker run --rm -it -v $(pwd):/app -w /app php:cli php",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thisishuey/php-sandbox.git"
-  },
-  "author": "Jeff \"Huey\" Huelsbeck",
-  "license": "GPL-2.0-or-later",
-  "bugs": {
-    "url": "https://github.com/thisishuey/php-sandbox/issues"
-  },
-  "homepage": "https://github.com/thisishuey/php-sandbox#readme"
+    "name": "php-sandbox",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "composer": "docker run --rm -it -v $(pwd):/app composer",
+        "php": "docker run --rm -it -v $(pwd):/app -w /app php:cli php",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thisishuey/php-sandbox.git"
+    },
+    "author": "Jeff \"Huey\" Huelsbeck",
+    "license": "GPL-2.0-or-later",
+    "bugs": {
+        "url": "https://github.com/thisishuey/php-sandbox/issues"
+    },
+    "homepage": "https://github.com/thisishuey/php-sandbox#readme"
 }
